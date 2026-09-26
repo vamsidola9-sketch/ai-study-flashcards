@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Study Flashcard Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⚡ AI Study Flashcard Generator</h1>
+            <p>Transform raw notes into interactive study quiz blocks instantly.</p>
+        </header>
+
+        <main>
+            <!-- Inputs Area -->
+            <section class="input-section">
+                <textarea id="notesInput" placeholder="Paste or type your raw study notes here (e.g., DNA replication details, history dates, coding logic)..."></textarea>
+                <button id="generateBtn">Generate Flashcards ✨</button>
+            </section>
+
+            <!-- Loading Spinner State -->
+            <div id="loading" class="hidden">
+                <div class="spinner"></div>
+                <p>Gemini AI is parsing and structuralizing your notes...</p>
+            </div>
+
+            <!-- Flashcards Output Container -->
+            <section id="flashcardsContainer" class="flashcard-grid"></section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
