@@ -1,5 +1,6 @@
-# ⚡ AI-Powered Study Flashcard Generator
-[🔗 Click Here to Launch the Live Web App](YOUR_DEPLOYMENT_URL_HERE)
+# 📊 Advanced Expense Tracker
+[🔗 Click Here to Launch the Live Web App](https://netlify.app)
+
 
 A high-throughput, web-based educational automation platform that parses unstructured raw text notes into structured, interactive study flashcards. This application integrates external large language models (LLMs) with robust client-side validation to provide instantaneous cognitive aids.
 
